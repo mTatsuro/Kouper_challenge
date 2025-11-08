@@ -64,4 +64,4 @@ Now open **http://localhost:5050** — Flask serves the compiled frontend from `
 ## Notes
 - The assistant follows rules: office hours only; NEW=30m, ESTABLISHED=15m; established if completed visit within 5 years; arrival guidance (30m new / 10m established); insurance acceptance or self‑pay quotes.
 - LLM is used only for **wording** — all logic is deterministic and audit‑friendly. Without an API key, responses fall back to an offline template.
-- You can tune ports and base URLs via env vars in `backend/.env.example`.
+- You can tune ports and base URLs via env vars in `backend/.env`.
